@@ -3,19 +3,6 @@ a {
     text-decoration: none;
     transition: 0.5s;
 
-    #github {
-        &:hover {
-            color: $clr-link--hover;
-        }
-        
-        &.highlight {
-            color: $clr-purple;
-            
-            &:hover {
-                color: $clr-dark;
-            }
-        }  
-    }
     &:hover {
         color: $clr-link--hover;
     }
@@ -28,6 +15,24 @@ a {
         }
     }   
 
+}
+
+#github {
+
+    color: $clr-link;
+    text-decoration: none;
+    transition: 0.5s;
+    &:hover {
+        color: $clr-link--hover;
+    }
+    
+    &.highlight {
+        color: $clr-purple;
+        
+        &:hover {
+            color: $clr-dark;
+        }
+    }  
 }
 
 
