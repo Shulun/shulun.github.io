@@ -39,7 +39,7 @@ a {
     
     &:hover {
         color: $clr-link--hover;
-        animation: pulse 1500ms;
+        animation: pulse 1500ms--hover;
     }
     
     &.highlight {
