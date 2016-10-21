@@ -50,12 +50,6 @@ a {
     color: #A30C7A; }
     a.highlight:hover {
       color: #008A75; }
-  a #github:hover {
-    color: #99FF33; }
-  a #github.highlight {
-    color: #A30C7A; }
-    a #github.highlight:hover {
-      color: #008A75; }
 
 #lang-panel {
   position: absolute;

@@ -15,20 +15,6 @@ a {
         }
     }   
 
-    #github {
-
-        &:hover {
-            color: $clr-link--hover;
-        }
-        
-        &.highlight {
-            color: $clr-purple;
-            
-            &:hover {
-                color: $clr-dark;
-            }
-        }
-    }
 }
 
 
