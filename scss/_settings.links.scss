@@ -8,31 +8,13 @@ a {
     }
     
     &.highlight {
-        color: $clr-contrast;
+        color: $clr-purple;
         
         &:hover {
             color: $clr-dark;
         }
     }   
 
-}
-
-#github {
-
-    color: $clr-link;
-    text-decoration: none;
-    transition: 0.5s;
-    &:hover {
-        color: $clr-link--hover;
-    }
-    
-    &.highlight {
-        color: $clr-purple;
-        
-        &:hover {
-            color: $clr-dark;
-        }
-    }  
 }
 
 

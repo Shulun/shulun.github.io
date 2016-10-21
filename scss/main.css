@@ -47,19 +47,8 @@ a {
   a:hover {
     color: #99FF33; }
   a.highlight {
-    color: #99FF33; }
-    a.highlight:hover {
-      color: #008A75; }
-
-#github {
-  color: #008A75;
-  text-decoration: none;
-  transition: 0.5s; }
-  #github:hover {
-    color: #99FF33; }
-  #github.highlight {
     color: #A30C7A; }
-    #github.highlight:hover {
+    a.highlight:hover {
       color: #008A75; }
 
 #lang-panel {
