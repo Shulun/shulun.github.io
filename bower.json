@@ -1,0 +1,27 @@
+{
+  "name": "Shulun Chen's CV",
+  "version": "1.0.0",
+  "homepage": "https://shulun.github.io/index.html",
+  "authors": [
+    "Shulun Chen"
+  ],
+  "description": "Web Designer and Developer",
+  "keywords": [
+    "CV",
+    "Web Designer",
+    "Web Developer",
+    "Web Front-end",
+    "Web Back-end"
+  ],
+  "license": "CC BY 3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pagepiling.js": "~0.0.7"
+  }
+}
