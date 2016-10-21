@@ -39,7 +39,6 @@ a {
     
     &:hover {
         color: $clr-link--hover;
-        animation: pulse 1500ms--hover;
     }
     
     &.highlight {
@@ -49,6 +48,10 @@ a {
             color: $clr-dark;
         }
     }
+}
+
+#pulse:hover > div {
+animation: pulse 1500ms;
 }
 
 #lang-panel {
