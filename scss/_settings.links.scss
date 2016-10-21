@@ -4,11 +4,11 @@ a {
     transition: 0.5s;
 
     &:hover {
-        color: $clr-link--hover;
+        color: $clr-purple--hover;
     }
     
     &.highlight {
-        color: $clr-purple;
+        color: $clr-contrast;
         
         &:hover {
             color: $clr-dark;

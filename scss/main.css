@@ -45,9 +45,9 @@ a {
   text-decoration: none;
   transition: 0.5s; }
   a:hover {
-    color: #99FF33; }
-  a.highlight {
     color: #A30C7A; }
+  a.highlight {
+    color: #99FF33; }
     a.highlight:hover {
       color: #008A75; }
 
