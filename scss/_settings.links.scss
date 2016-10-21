@@ -1,42 +1,23 @@
-@import "compass/css3";
-
-/* Simple SCSS hover animations using font-awesome icons by dehash.com released under MIT License http://opensource.org/licenses/MIT */
-@mixin pulse ($n) {
-0%{transform: scaleX(1) scaleY(1);}
-@for $i from 1 through 9 {
-$m:1;
-@if $i % 2 !=0 {$m: $n;}
-#{$i*10%}{transform:scaleX($m) scaleY($m)}
-}
-100%{transform: scaleX(1) scaleY(1);}
-}
-
-@mixin shake ($n) {
-0%{transform: rotateZ(0);}
-$pos: 1;
-@for $i from 1 through 9 {
-$pos: $pos * -1;
-$m: ($n / $i) * $pos;
-#{$i*10%}{transform:  rotateZ($m * 1deg)}
-}
-100%{transform: rotateZ(0);}
-}
-
-@keyframes pulse {
-@include pulse(0.85);
-}
-@keyframes shake {
-@include shake(30);
-}
-@keyframes spin {
-to{transform:rotateZ(720deg)}
-}
-
 a {
     color: $clr-link;
     text-decoration: none;
     transition: 0.5s;
     
+    #github {
+
+        &:hover {
+            color: $clr-link--hover;
+        }
+        
+        &.highlight {
+            color: $clr-purple;
+            
+            &:hover {
+                color: $clr-dark;
+            }
+        }
+    }
+
     &:hover {
         color: $clr-link--hover;
     }
@@ -47,12 +28,9 @@ a {
         &:hover {
             color: $clr-dark;
         }
-    }
+    }   
 }
 
-#pulse:hover > div {
-animation: pulse 1500ms;
-}
 
 #lang-panel {
     position: absolute;
