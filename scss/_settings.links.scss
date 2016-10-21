@@ -2,7 +2,19 @@ a {
     color: $clr-link;
     text-decoration: none;
     transition: 0.5s;
+
+    &:hover {
+        color: $clr-link--hover;
+    }
     
+    &.highlight {
+        color: $clr-purple;
+        
+        &:hover {
+            color: $clr-dark;
+        }
+    }   
+
     #github {
 
         &:hover {
@@ -17,18 +29,6 @@ a {
             }
         }
     }
-
-    &:hover {
-        color: $clr-link--hover;
-    }
-    
-    &.highlight {
-        color: $clr-contrast;
-        
-        &:hover {
-            color: $clr-dark;
-        }
-    }   
 }
 
 
