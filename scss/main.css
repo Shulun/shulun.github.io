@@ -52,6 +52,12 @@ a {
       color: #008A75; }
   a#github:hover {
     color: #A30C7A; }
+  a#twitter:hover {
+    color: #00aced; }
+  a#google-plus:hover {
+    color: #d34836; }
+  a#linkedin:hover {
+    color: #4875B4; }
 
 #lang-panel {
   position: absolute;
