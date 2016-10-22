@@ -45,11 +45,18 @@ a {
   text-decoration: none;
   transition: 0.5s; }
   a:hover {
-    color: #A30C7A; }
+    color: #99FF33; }
   a.highlight {
     color: #99FF33; }
     a.highlight:hover {
       color: #008A75; }
+
+a #github {
+  color: #008A75;
+  text-decoration: none;
+  transition: 0.5s; }
+  a #github:hover {
+    color: #A30C7A; }
 
 #lang-panel {
   position: absolute;
