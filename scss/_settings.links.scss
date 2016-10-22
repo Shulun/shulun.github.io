@@ -13,20 +13,14 @@ a {
         &:hover {
             color: $clr-dark;
         }
-    }   
+    }  
 
-}
-
-a #github{
-    color: $clr-link;
-    text-decoration: none;
-    transition: 0.5s;
-
-    &:hover {
+    #github:hover {
         color: $clr-purple--hover;
-    }
-    
+    } 
+
 }
+
 
 
 #lang-panel {
