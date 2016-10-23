@@ -62,9 +62,8 @@ a {
 
 #nav-panel {
     position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 15px;
+    left: 40px;
+    top: 40px;
 
     #menu {
       li {
@@ -91,11 +90,11 @@ a {
           background: rgba(255, 255, 255, 0.8);
         }
         a {
-          padding: 8px 16px;
+          padding: 9px 18px;
           display: block;
         }
         &.active a {
-          padding: 8px 16px;
+          padding: 9px 18px;
           display: block;
           color: #fff;
         }

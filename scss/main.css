@@ -81,9 +81,8 @@ a {
  * --------------------------------------- */
 #nav-panel {
   position: absolute;
-  left: 20px;
-  top: 20px;
-  font-size: 15px; }
+  left: 40px;
+  top: 40px; }
   #nav-panel #menu {
     position: fixed;
     top: 0;
@@ -113,10 +112,10 @@ a {
       #nav-panel #menu li:hover {
         background: rgba(255, 255, 255, 0.8); }
       #nav-panel #menu li a {
-        padding: 8px 16px;
+        padding: 9px 18px;
         display: block; }
       #nav-panel #menu li.active a {
-        padding: 8px 16px;
+        padding: 9px 18px;
         display: block;
         color: #fff; }
 
