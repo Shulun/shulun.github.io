@@ -8,7 +8,7 @@ Tools: SCSS, bower, gulp
 
 ### Credit 
 
-Originally designed and implemented by Wenli Zhang: [GitHub](https://github.com/ovilia)
+Online version is originally designed and implemented by Wenli Zhang: [GitHub](https://github.com/ovilia)
 
 
 ### About Permission
