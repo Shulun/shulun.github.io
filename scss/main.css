@@ -174,11 +174,13 @@ ul {
   box-sizing: border-box; }
 
 .section {
-  background-image: url("https://raw.githubusercontent.com/Shulun/shulun.github.io/master/img/background_image.jpg");
-  /*background-color: $clr-primary;*/
+  background-color: #22C3AA;
   color: #EEF3F0;
   padding: 50px;
   transition: 0.5s; }
+  .section.image {
+    background-image: url("https://raw.githubusercontent.com/Shulun/shulun.github.io/master/img/background_image.jpg");
+    padding: 6% 0 0 0; }
   .section.initing {
     display: none; }
   .section.leaving {
