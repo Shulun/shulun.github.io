@@ -75,6 +75,14 @@ a {
       color: #008A75;
       cursor: default; }
 
+#nav-panel {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-radius: 5px;
+  z-index: 100;
+  font-size: 0.8em; }
+
 p {
   color: #AEE2D9; }
 
