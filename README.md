@@ -13,7 +13,7 @@ Originally designed and implemented by Wenli Zhang: [GitHub](https://github.com/
 
 ### About Permission
 
-The project is open-sourced under MIT license. You can use either Online or PDF version without an explicit statement or link to this project. Please do not distribute my pdf version of CV without permission. Credit of that format goes to Byungjin Park: [GitHub](https://github.com/posquit0)
+The project is open-sourced under MIT license. You can use either Online or PDF version without an explicit statement or link to this project. Please do not redistribute my pdf version of CV without permission. Credit of that format goes to Byungjin Park: [GitHub](https://github.com/posquit0)
 
 
 ## License
