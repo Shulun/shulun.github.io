@@ -123,6 +123,39 @@ a {
         display: block;
         color: #fff; }
 
+#nav-panel ul#menu li.icon {
+  display: none; }
+
+@media screen and (max-width: 720px) {
+  #nav-panel ul#menu li {
+    display: none; }
+    #nav-panel ul#menu li.icon {
+      float: left;
+      display: inline-block; } }
+@media screen and (max-width: 720px) {
+  #nav-panel ul#menu.responsive {
+    position: absolute; }
+    #nav-panel ul#menu.responsive li {
+      position: relative;
+      left: -15px;
+      top: 30px;
+      float: left;
+      display: inline-block; }
+      #nav-panel ul#menu.responsive li.icon {
+        position: fixed;
+        left: 0;
+        top: 0; }
+      #nav-panel ul#menu.responsive li a {
+        display: block;
+        text-align: left; } }
+@media screen and (max-width: 500px) {
+  #nav-panel ul#menu li {
+    display: none; }
+    #nav-panel ul#menu li.icon {
+      display: none; }
+
+  #nav-panel ul#menu.responsive {
+    display: none; } }
 p {
   color: #AEE2D9; }
 

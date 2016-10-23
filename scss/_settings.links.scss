@@ -118,4 +118,48 @@ a {
 }
 
 
+#nav-panel ul#menu li.icon {display: none;}
 
+@media screen and (max-width: 720px) {
+  #nav-panel ul#menu li {
+    display: none;
+    &.icon {
+      float: left;
+      display: inline-block;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #nav-panel ul#menu.responsive {
+    position: absolute;
+    li {
+      &.icon {
+        position: fixed;
+        left: 0;
+        top: 0;
+      }
+      position: relative;
+      left: -15px;
+      top: 30px;
+      float: left;
+      display: inline-block;
+      a {
+        display: block;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #nav-panel ul#menu li {
+    display: none;
+    &.icon {
+      display: none;
+    }
+  }
+  #nav-panel ul#menu.responsive {
+    display: none;
+  }
+}

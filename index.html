@@ -12,6 +12,16 @@
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
+
+            // Collapse button
+            function myCollapse() {
+                var x = document.getElementById("menu");
+                if (x.className === "menu") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "menu";
+                }
+            };
         </script>
         
         <meta name="viewport" content="width=100%, initial-scale=1" />
@@ -36,6 +46,9 @@
                 <li data-menuanchor="page3"><a href="#page3">Skills</a></li>
                 <li data-menuanchor="page4"><a href="#page4">Education</a></li>
                 <li data-menuanchor="page5"><a href="#page5">Contact</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:16px;" onclick="myCollapse()">☰</a>
+                </li>
             </ul>
         </div>
 
