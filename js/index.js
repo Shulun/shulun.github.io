@@ -10,7 +10,7 @@ $(document).ready(function() {
         $('nav-panel').hide();
         console.log('mobile');
     } else {
-        console.log('web');
+        console.log(mobilecheck());
         var en = ['Home', 'Projects', 'Skills', 'Education', 'Contact'];
         var cn = ['首页', '项目', '技能', '教育', '联系'];
         var isCn = window.location.href.indexOf('cn.html') >= 0;
