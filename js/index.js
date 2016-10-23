@@ -7,8 +7,7 @@ window.mobilecheck = function() {
 $(document).ready(function() {
     if (mobilecheck()) {
         $('html').addClass('mobile');
-        $('nav-panel').hide();
-        console.log('mobile');
+        $('#nav-panel').hide();
     } else {
         console.log(mobilecheck());
         var en = ['Home', 'Projects', 'Skills', 'Education', 'Contact'];
