@@ -174,7 +174,8 @@ ul {
   box-sizing: border-box; }
 
 .section {
-  background-color: #22C3AA;
+  background-image: url("./img/background-image.jpg");
+  /*background-color: $clr-primary;*/
   color: #EEF3F0;
   padding: 50px;
   transition: 0.5s; }
