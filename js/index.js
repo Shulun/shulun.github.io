@@ -8,8 +8,9 @@ $(document).ready(function() {
     if (mobilecheck()) {
         $('html').addClass('mobile');
         $('nav-panel').hide();
-        console.log(mobilecheck());
+        console.log('mobile');
     } else {
+        console.log('web');
         var en = ['Home', 'Projects', 'Skills', 'Education', 'Contact'];
         var cn = ['首页', '项目', '技能', '教育', '联系'];
         var isCn = window.location.href.indexOf('cn.html') >= 0;
