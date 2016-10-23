@@ -6,8 +6,7 @@ window.mobilecheck = function() {
 
 $(document).ready(function() {
     if (mobilecheck()) {
-        $('html').addClass('mobile');
-        //$('#nav-panel').attr('data-role', 'collapsible');
+        //$('html').addClass('mobile');
     } else {
         var en = ['Home', 'Projects', 'Skills', 'Education', 'Contact'];
         var cn = ['首页', '项目', '技能', '教育', '联系'];
