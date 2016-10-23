@@ -19,7 +19,7 @@ $(document).ready(function() {
                     'textColor': '#f2f2f2',
                     'bulletsColor': '#ccc',
                     'position': 'right',
-                    'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4', 'Page 5']
+                    'tooltips': isCn ? cn : en
                 },
             loopBottom: true,
             navigation: {
