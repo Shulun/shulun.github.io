@@ -9,7 +9,6 @@ $(document).ready(function() {
         $('html').addClass('mobile');
         $('#nav-panel').hide();
     } else {
-        console.log(mobilecheck());
         var en = ['Home', 'Projects', 'Skills', 'Education', 'Contact'];
         var cn = ['首页', '项目', '技能', '教育', '联系'];
         var isCn = window.location.href.indexOf('cn.html') >= 0;
