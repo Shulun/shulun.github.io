@@ -81,8 +81,9 @@ a {
  * --------------------------------------- */
 #nav-panel {
   position: absolute;
-  left: 20px;
-  top: 20px; }
+  left: 25px;
+  top: 25px;
+  font-size: 20px; }
   #nav-panel #menu {
     position: fixed;
     top: 0;
@@ -99,7 +100,7 @@ a {
       background: #fff;
       background: rgba(255, 255, 255, 0.5);
       -webkit-border-radius: 10px;
-      border-radius: 10px; }
+      border-radius: 8px; }
       #nav-panel #menu li.active {
         background: #666;
         background: rgba(0, 0, 0, 0.5);
@@ -112,10 +113,10 @@ a {
       #nav-panel #menu li:hover {
         background: rgba(255, 255, 255, 0.8); }
       #nav-panel #menu li a {
-        padding: 9px 18px;
+        padding: 8px 16px;
         display: block; }
       #nav-panel #menu li.active a {
-        padding: 9px 18px;
+        padding: 8px 16px;
         display: block;
         color: #fff; }
 

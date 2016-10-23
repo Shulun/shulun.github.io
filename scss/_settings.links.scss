@@ -62,9 +62,10 @@ a {
 
 #nav-panel {
     position: absolute;
-    left: 20px;
-    top: 20px;
-    
+    left: 25px;
+    top: 25px;
+    font-size: 20px;
+
     #menu {
       li {
         display: inline-block;
@@ -73,7 +74,7 @@ a {
         background: #fff;
         background: rgba(255, 255, 255, 0.5);
         -webkit-border-radius: 10px;
-        border-radius: 10px;
+        border-radius: 8px;
         &.active {
           background: #666;
           background: rgba(0, 0, 0, 0.5);
@@ -90,11 +91,11 @@ a {
           background: rgba(255, 255, 255, 0.8);
         }
         a {
-          padding: 9px 18px;
+          padding: 8px 16px;
           display: block;
         }
         &.active a {
-          padding: 9px 18px;
+          padding: 8px 16px;
           display: block;
           color: #fff;
         }
