@@ -85,8 +85,8 @@ a {
   top: 20px; }
   #nav-panel #menu {
     position: fixed;
-    top: 20px;
-    left: 20px;
+    top: 0;
+    left: 0;
     height: 40px;
     z-index: 70;
     width: 100%;
@@ -105,7 +105,7 @@ a {
         background: rgba(0, 0, 0, 0.5);
         color: #fff; }
       #nav-panel #menu li a {
-        text-shadow: 1px 2px #22C3AA, 2px 4px #AEE2D9;
+        text-shadow: 0px 2px 3px #555;
         text-decoration: none;
         color: #000; }
       #nav-panel #menu li.active a:hover {
