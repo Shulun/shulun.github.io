@@ -8,7 +8,7 @@ Tools: SCSS, bower, gulp
 
 ### Credit 
 
-Originally designed by Wenli Zhang: [GitHub](https://github.com/ovilia)
+Originally designed and implemented by Wenli Zhang: [GitHub](https://github.com/ovilia)
 
 
 ### About Permission
@@ -20,7 +20,7 @@ The project is open-sourced under MIT license. You can use either Online or PDF 
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Ovilia
+Copyright (c) 2016 Shulun
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
