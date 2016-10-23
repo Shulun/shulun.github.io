@@ -105,6 +105,7 @@ a {
         background: rgba(0, 0, 0, 0.5);
         color: #fff; }
       #nav-panel #menu li a {
+        text-shadow: 1px 2px #22C3AA, 2px 4px #AEE2D9;
         text-decoration: none;
         color: #000; }
       #nav-panel #menu li.active a:hover {

@@ -80,6 +80,7 @@ a {
           color: #fff;
         }
         a {
+          text-shadow: 1px 2px $clr-primary, 2px 4px $clr-light;
           text-decoration: none;
           color: #000;
         }
